@@ -1,0 +1,138 @@
+/* Add CSS here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img { 
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.bg-primary-color{
+  background-color: #7E10E1;
+}
+
+.hero {
+  background-color: #F0F0F0;
+  margin-top: 2em;
+  padding: 4em 1em;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.primary-btn {
+  font-size: .8rem;
+  text-decoration: none;
+  color: #F0F0F0;
+  background-color: #7E10E1;
+  padding: .5em;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  padding-top: .3em;
+  padding-bottom: .6em;
+}
+
+.hero__text {
+  color: purple;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  padding-bottom: 1em;
+}
+
+.section {
+  text-align: left;
+}
+
+.section__article-one {
+  width: auto;
+  height: auto;
+  color: #F0F0F0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.article-one__img {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.article-one__subtext {
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+}
+
+.article-two__img {
+  width: auto;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-size: cover;
+}
+
+.article-two-text-card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  padding: 1em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 2em;
+}
+.article-two__title {
+  padding-bottom: .7em;
+}
+
+.article-two-text {
+  padding-bottom: .7em;
+}
+
+.secondary-btn {
+  font-size: .8rem;
+  text-decoration: none;
+  color: #F0F0F0;
+  background-color: #7E10E1;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 480px) {
+  .article-one__subtext {
+      font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .hero__text {
+      width: 89%;
+  }
+  .section {
+      display: flex;
+      justify-content: space-between;
+  }
+  .section__article-one {
+      width: 65%;
+  }
+  .section__article-two {
+      width: 32%;
+  }
+  /* .article-two__title {
+      padding-left: .5em;
+  }
+  .article-two-text {
+      padding: 0 1em 1em;
+      line-height: 1.5em;
+  } */
+}
