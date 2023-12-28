@@ -21,6 +21,7 @@ img {
 .hero {
   background-color: #F0F0F0;
   margin-top: 2em;
+  max-width: 800px;
   padding: 4em 1em;
   border-radius: 10px;
   text-align: center;
@@ -46,10 +47,12 @@ img {
   margin: 0 auto;
   font-size: 1.4rem;
   padding-bottom: 1em;
+  width: 70%
 }
 
 .section {
   text-align: left;
+  max-width: 700px;
 }
 
 .section__article-one {
@@ -115,24 +118,52 @@ img {
 }
 
 @media screen and (min-width: 680px) {
-  .hero__text {
-      width: 89%;
-  }
   .section {
       display: flex;
       justify-content: space-between;
+      margin: 0 auto 3em;
+      height: 270px;
+      width: auto;
   }
   .section__article-one {
-      width: 65%;
+      height: 100%;
+      width: 64%;
+      font-size: .8rem;
+  }
+  .article-one__img {
+      height: 100%;
+      width: 100%;
   }
   .section__article-two {
-      width: 32%;
+      height: 100%;
+      width: 35%;
+      display: flex;
+      flex-direction: column;
   }
-  /* .article-two__title {
-      padding-left: .5em;
+  .article-two__img {
+      height: 40%;
+      width: 100%;
+      object-fit: cover;
+      max-width: 100%;
+  }
+  .article-two-text-card {
+      height: 100%;
+      margin: 0;
+      padding: 1em 1.7em;
+  }
+  .article-two__title {
+      font-size: 1rem;
   }
   .article-two-text {
-      padding: 0 1em 1em;
-      line-height: 1.5em;
-  } */
+      font-size: .8rem;
+  }
+}
+
+@media screen and (min-width: 766px) {
+  .section__article-two {
+          width: 34%;
+      }
+  .article-two__title {
+          font-size: 1.1rem;
+      }
 }
