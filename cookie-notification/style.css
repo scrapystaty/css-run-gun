@@ -1,0 +1,166 @@
+body {
+  background-color: #ededff;
+  font-family: 'Roboto', sans-serif;
+}
+
+img { 
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+
+  padding: 0 1em 1em;
+}
+
+.action-hero {
+  background-color: #6ba1ff;
+  color: #ededff;
+  font-size: .7rem;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 10em auto 7em;
+  border-radius: 50px;
+}
+
+.action-hero__text {
+  font-weight: 100;
+  padding: 1.2em 3em;
+}
+
+.primary-link {
+  color: #ededff;
+  font-weight: 500;
+}
+
+.exit-bg {
+  background-color: #0d66ff;
+  height: 15px;
+  width: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .9em;
+  border-radius: 50%;
+  margin-right: 1.6em;
+}
+
+.exit-hero-45 {
+  width: 15px;
+  height: 1px;
+  background-color: #ededff;
+  transform: rotate(45deg);
+}
+
+.exit-hero-90 {
+  width: 15px;
+  height: 1px;
+  background-color: #ededff;
+  transform: rotate(90deg);
+}
+
+.card {
+  background-color: #fff;
+  font-size: .6rem;
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding-top: 2em;
+}
+
+.card-exit-bg {
+  height: 25px;
+  width: 25px;
+  margin: 0 2em 0 auto;
+  padding: .3em;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card-exit-45 {
+  width: 15px;
+  height: 1px;
+  background-color: #000;
+  transform: rotate(45deg);
+}
+
+.card-exit-90 {
+  width: 15px;
+  height: 1px;
+  background-color: #000;
+  transform: rotate(90deg);
+}
+
+.card--bg {
+  background-color: #fff2eb;
+  width: 55px;
+  height: 55px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  margin: 0 auto 2.5em;
+}
+
+.card__img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.card__text {
+  width: 70%;
+  margin: 0 auto 3em;
+  line-height: 1.5;
+}
+
+.secondary-link {
+  color: #000;
+}
+
+.btn-opions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5em;
+}
+
+.primary-btn {
+  color: #0053e0;
+  border: 1px solid #0053e0;
+  padding: 1em 2em;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.primary-btn + .primary-btn {
+  margin-left: 1em;
+}
+
+.cookie-settings-link {
+  padding-bottom: 3em;
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .action-hero {
+          margin: 1em auto .5em;
+          border-radius: 15px;
+  }
+  
+  .card {
+          background-color: #fff;
+          font-size: .6rem;
+  }
+}
