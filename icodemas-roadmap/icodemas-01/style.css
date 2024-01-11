@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a2b4bd;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 440px;
+
+    margin: auto;
+}
+
+.hero {
+    background-image: url("https://marketplace.canva.com/EAFyaFRPpec/1/0/1600w/canva-blue-and-white-flat-christmas-linktree-background-m_-ytpvp71w.jpg");
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    padding: 4em 0 9em;
+
+    position: relative;
+}
+
+.hero__title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: .018em;
+
+    margin: .3em 0;
+}
+
+.hero__subtext {
+    font-size: .8rem;
+    font-weight: 100;
+    color: #fff;
+
+    margin: 0 0 3em;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    gap: .5em;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    min-height: 100px;
+    width: 100%;
+
+    mix-blend-mode: screen;
+}
+
+.card__title {
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin: 0;
+    padding-top: .4em;
+    padding-bottom: .2em;
+}
+
+.card__subtext {
+    font-size: .8rem;
+    margin: 0;
+    padding-bottom: 2em;
+}
