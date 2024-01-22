@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(110deg, rgba(255,0,0,0) 5%, rgba(255, 221, 193, 0.8), rgba(255,0,0,0));
+  height: 100vh;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: .7rem;
+  font-weight: 500;
+  padding: 1em 3em;
+  border-radius: 2em;
+}
+
+.btn-dark {
+  color: #000;
+  background: linear-gradient(45deg, rgba(255, 57, 26, 0.8) 50%, rgba(255, 114, 0, 0.8));
+}
+
+.btn-light {
+  color: #000;
+  background: rgba(255, 221, 193, 0.8);
+}
+
+.hero {
+  background: #fff;
+  max-width: 16em;
+  border-radius: 2em;
+
+  margin: auto;
+  padding: 2em 1em;
+ 
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: 50% 0;
+  border-radius: 1em;
+  box-shadow: 0 0 0 10px rgba(244, 247, 255, 0.8);
+}
+
+.name {
+  font-size: 1rem;
+  margin: 0;
+  padding: 1.5em 0 .3em;
+}
+
+.job-title {
+  font-size: .7rem;
+  line-height: 1.3;
+  margin: 0;
+  padding-bottom: 3.5em;
+}
+
+.btn-div {
+  padding-bottom: .3em;
+}
+
+.btn.btn-light {
+  padding: 1em 1.4em;
+  margin-left: .5em;
+}
+
+.btn span {
+  padding-left: .2em;
+}
